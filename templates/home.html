@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ML Model Demo</title>
+  </head>
+  <body>
+    <h1>ML Model Demo</h1>
+    <form action="{{ url_for('predict') }}" method="POST">
+      <label for="feature1">Feature 1:</label>
+      <input type="text" name="feature1" id="feature1"><br>
+      <label for="feature2">Feature 2:</label>
+      <input type="text" name="feature2" id="feature2"><br>
+      <label for="feature3">Feature 3:</label>
+      <input type="text" name="feature3" id="feature3"><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Hello World</h1>
+</body>
+</html> -->
